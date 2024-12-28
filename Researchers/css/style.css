@@ -140,6 +140,8 @@ section .section-title {
   .card-img-top {
     height: 200px;
     object-fit: cover;
+    
+    
   }
   .co_card:hover {
 transform: translateY(-10px);
@@ -216,6 +218,14 @@ margin-left: 80px;
 
 
 
+
+
+
+
+
+
+
+
 /* .... */
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'); /* Updated FontAwesome */
@@ -258,6 +268,7 @@ section {
 .image-flip.hover .backside {
     transform: rotateY(0deg);
     border-radius: 0.25rem;
+    border: 4px solid #e5e5e5;
 }
 
 .image-flip:hover .frontside,
@@ -281,7 +292,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background: white;
+    background: rgb(143, 116, 116);
     transform: rotateY(-180deg);
     box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 }
@@ -296,11 +307,23 @@ section {
 .frontside .card,
 .backside .card {
     min-height: 312px;
+    
+}
+.frontside .card{
+    background-color: #ebeef3;
+}
+
+.backside .card{
+    background-color: #28182e;
 }
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #ffffff !important;
+}
+
+.backside .card p{
+    color: white;
 }
 
 .frontside .card .card-title,
@@ -312,4 +335,10 @@ section {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    border: 4px solid #e5e5e5;
 }
+
+
+
+
+
